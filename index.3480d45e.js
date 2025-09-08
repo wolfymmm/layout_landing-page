@@ -1,0 +1,2 @@
+var e=document.querySelector(".icon--menu"),n=document.querySelector(".menu__close"),c=document.querySelectorAll(".menu__link"),o=document.body;e.addEventListener("click",function(){o.classList.add("menu-open")}),n.addEventListener("click",function(){o.classList.remove("menu-open")}),c.forEach(function(e){e.addEventListener("click",function(){o.classList.remove("menu-open")})});
+//# sourceMappingURL=index.3480d45e.js.map
